@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "'C:/Program Files/py.exe' -m agent_actions run runner.py --harness vscode --hook pre-tool",
+        "windows": "& 'C:/Program Files/py.exe' '-m' 'agent_actions' 'run' 'runner.py' '--harness' 'vscode' '--hook' 'pre-tool'",
+        "timeout": 120
+      }
+    ],
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "'C:/Program Files/py.exe' -m agent_actions run runner.py --harness vscode --hook post-tool",
+        "windows": "& 'C:/Program Files/py.exe' '-m' 'agent_actions' 'run' 'runner.py' '--harness' 'vscode' '--hook' 'post-tool'",
+        "timeout": 120
+      }
+    ]
+  }
+}

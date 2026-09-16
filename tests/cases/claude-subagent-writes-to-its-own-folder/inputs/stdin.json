@@ -1,0 +1,11 @@
+{
+  "session_id": "d4e5f6a7-8b9c-4d0e-1f2a-3b4c5d6e7f80",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "SubagentStop",
+  "agent_id": "agent-7f3e",
+  "agent_type": "Explore",
+  "stop_hook_active": false,
+  "last_assistant_message": "Found three call sites."
+}

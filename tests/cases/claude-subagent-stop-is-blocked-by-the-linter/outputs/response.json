@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "decision": "block",
+    "reason": "[lint] `ruff check .` failed with exit code 1. Fix the problems, then finish your work.\n[lint] Output:\nsrc/app.py:3:1: F401 'os' imported but unused"
+  },
+  "stderr": ""
+}

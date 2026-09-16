@@ -1,0 +1,22 @@
+{
+  "20260915T095500000": {
+    "LoopGuard(RequireTests)": {
+      "state": {
+        "consecutive_blocks": 2,
+        "inner": {}
+      },
+      "inputs": {
+        "hook": "stop"
+      },
+      "outputs": {
+        "verdict": "block",
+        "reasons": [
+          "`pytest -q` failed with exit code 1. Make all tests pass before you finish. Do not change or delete tests to make them pass.",
+          "Output:\n1 failed, 4 passed",
+          "Blocked stop 2 of 2. If the problems remain at your next stop, stop anyway and tell the user that the approach needs a review."
+        ],
+        "context": []
+      }
+    }
+  }
+}

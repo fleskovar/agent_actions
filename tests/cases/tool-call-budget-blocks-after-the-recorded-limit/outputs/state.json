@@ -1,0 +1,14 @@
+{
+  "ToolCallBudget": {
+    "state": {
+      "calls": 3
+    },
+    "outputs": {
+      "verdict": "block",
+      "reasons": [
+        "The budget of 3 tool calls is used up. Stop now and report your progress and the open problems to the user."
+      ],
+      "context": []
+    }
+  }
+}

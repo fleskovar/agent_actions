@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "hookSpecificOutput": {
+      "hookEventName": "PreToolUse",
+      "permissionDecision": "deny",
+      "permissionDecisionReason": "[BlockShellCommands] The shell command matches the blocked pattern '\\brm\\s+-rf\\b'. Use a safer command, or ask the user to run this one."
+    }
+  },
+  "stderr": ""
+}

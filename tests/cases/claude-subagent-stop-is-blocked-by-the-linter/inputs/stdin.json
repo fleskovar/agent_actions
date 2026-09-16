@@ -1,0 +1,11 @@
+{
+  "session_id": "3f405162-7384-4950-8617-283940516273",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "SubagentStop",
+  "agent_id": "agent-91b2",
+  "agent_type": "code-reviewer",
+  "stop_hook_active": false,
+  "last_assistant_message": "The review is complete."
+}

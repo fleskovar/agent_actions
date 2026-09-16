@@ -1,0 +1,13 @@
+{
+  "lint": {
+    "state": {},
+    "outputs": {
+      "verdict": "block",
+      "reasons": [
+        "`ruff check .` failed with exit code 1. Fix the problems, then finish your work.",
+        "Output:\nsrc/app.py:3:1: F401 'os' imported but unused"
+      ],
+      "context": []
+    }
+  }
+}

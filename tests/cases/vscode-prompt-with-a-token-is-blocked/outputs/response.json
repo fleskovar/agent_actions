@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "continue": false,
+    "stopReason": "[BlockSecretsInPrompt] Your prompt contains what looks like an API token. Remove it and name the secret instead, for example OPENAI_API_KEY."
+  },
+  "stderr": ""
+}

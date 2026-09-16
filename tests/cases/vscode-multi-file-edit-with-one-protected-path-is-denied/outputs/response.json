@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "hookSpecificOutput": {
+      "hookEventName": "PreToolUse",
+      "permissionDecision": "deny",
+      "permissionDecisionReason": "[BlockWrites] 'multi_replace_string_in_file' on '{{root}}/tests/test_pricing.py' is blocked: 'tests/**' is protected. These files are protected. Do not change them. If a change is necessary, stop and ask the user."
+    }
+  },
+  "stderr": ""
+}

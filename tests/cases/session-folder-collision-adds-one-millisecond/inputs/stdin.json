@@ -1,0 +1,7 @@
+{
+  "session_id": "a1b2c3d4-9999-4new-8888-777766665555",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "hook_event_name": "SessionStart",
+  "source": "startup"
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-15T10:00:00.000Z",
+  "session_id": "9a8b7c6d-1111-2222-3333-444455556666",
+  "cwd": "{{root}}",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "replace_string_in_file",
+  "tool_input": {
+    "filePath": "{{root}}/src/pricing.py",
+    "oldString": "rate = 0.1",
+    "newString": "rate = 0.2"
+  },
+  "tool_use_id": "call_42"
+}

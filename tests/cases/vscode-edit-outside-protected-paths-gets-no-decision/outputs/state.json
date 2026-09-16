@@ -1,0 +1,10 @@
+{
+  "BlockWrites": {
+    "state": {},
+    "outputs": {
+      "verdict": "allow",
+      "reasons": [],
+      "context": []
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "session_id": "8a9b0c1d-2e3f-4405-9162-738495061728",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "{{root}}/src/pricing.py",
+    "content": "RATE = 0.1\n"
+  },
+  "tool_use_id": "toolu_07",
+  "tool_response": {
+    "type": "text",
+    "text": "File written"
+  }
+}

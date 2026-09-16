@@ -1,0 +1,12 @@
+{
+  "ModeGuard": {
+    "state": {},
+    "outputs": {
+      "verdict": "block",
+      "reasons": [
+        "The check failed with KeyError: 'mode'. Tell the user. The traceback is in the log.txt file under .hooks/."
+      ],
+      "context": []
+    }
+  }
+}

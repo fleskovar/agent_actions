@@ -1,0 +1,14 @@
+{
+  "session_id": "3f1c9a2e-77b0-4c1d-9d0e-5a4b3c2d1e0f",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "{{root}}/tests/test_pricing.py",
+    "old_string": "assert total == 120",
+    "new_string": "assert total == 100"
+  },
+  "tool_use_id": "toolu_01"
+}

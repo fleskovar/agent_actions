@@ -1,0 +1,13 @@
+{
+  "session_id": "4d5e6f70-8192-4a3b-8c2d-3e4f50637484",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "cat .env | grep TOKEN",
+    "description": "Read the API token"
+  },
+  "tool_use_id": "toolu_03"
+}

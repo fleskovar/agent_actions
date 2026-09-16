@@ -1,0 +1,13 @@
+{
+  "session_id": "2e3f4051-6273-4849-8506-172839405162",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "{{root}}/src/app.py",
+    "content": "print('hello')\n"
+  },
+  "tool_use_id": "toolu_08"
+}

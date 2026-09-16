@@ -1,0 +1,6 @@
+{
+  "command": "install",
+  "harness": "vscode",
+  "python": "C:/Program Files/py.exe",
+  "timeout": 120
+}

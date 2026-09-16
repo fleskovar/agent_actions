@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-09-15T10:00:00.000Z",
+  "session_id": "0c1d2e3f-4051-4627-8384-950617283940",
+  "cwd": "{{root}}",
+  "hook_event_name": "UserPromptSubmit",
+  "prompt": "deploy the staging app with key sk-ABCD1234EFGH5678"
+}

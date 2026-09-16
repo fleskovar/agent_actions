@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "permissionDecision": "deny",
+    "permissionDecisionReason": "[BlockReads] 'view' on '.env' is blocked: '.env' is protected. These files can contain secrets. Do not read, search or print them, and do not ask for their content."
+  },
+  "stderr": ""
+}

@@ -1,0 +1,5 @@
+{
+  "command": "install",
+  "harness": "claude",
+  "timeout": 300
+}

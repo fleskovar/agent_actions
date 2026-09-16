@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-15T10:00:00.000Z",
+  "session_id": "1a2b3c4d-5e6f-4708-9a0b-1c2d3e4f5061",
+  "cwd": "{{root}}",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "multi_replace_string_in_file",
+  "tool_input": {
+    "explanation": "Rename the rate constant",
+    "replacements": [
+      {
+        "filePath": "{{root}}/src/pricing.py",
+        "oldString": "RATE = 0.1",
+        "newString": "BASE_RATE = 0.1"
+      },
+      {
+        "filePath": "{{root}}/tests/test_pricing.py",
+        "oldString": "RATE",
+        "newString": "BASE_RATE"
+      }
+    ]
+  },
+  "tool_use_id": "call_7"
+}

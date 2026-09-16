@@ -1,0 +1,17 @@
+{
+  "LoopGuard(RequireTests)": {
+    "state": {
+      "consecutive_blocks": 0,
+      "inner": {}
+    },
+    "outputs": {
+      "verdict": "allow",
+      "reasons": [
+        "Allowed the stop after 2 blocked stops in a row.",
+        "`pytest -q` failed with exit code 1. Make all tests pass before you finish. Do not change or delete tests to make them pass.",
+        "Output:\n1 failed, 4 passed"
+      ],
+      "context": []
+    }
+  }
+}

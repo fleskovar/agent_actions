@@ -1,0 +1,12 @@
+{
+  "session_id": "7e8f9a0b-1c2d-4e3f-8405-162738495061",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "{{root}}/src/pricing.py"
+  },
+  "tool_use_id": "toolu_06"
+}

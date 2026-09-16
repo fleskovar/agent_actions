@@ -1,0 +1,13 @@
+{
+  "session_id": "6f708192-a3b4-4c5d-8e4f-506374859601",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "{{root}}/tests/test_pricing.py",
+    "content": "def test_discount():\n    assert True\n"
+  },
+  "tool_use_id": "toolu_05"
+}

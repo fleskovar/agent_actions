@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "hookSpecificOutput": {
+      "hookEventName": "SessionStart",
+      "additionalContext": "Run the tests with `make test`."
+    }
+  },
+  "stderr": ""
+}

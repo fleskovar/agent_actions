@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "hookSpecificOutput": {
+      "hookEventName": "PreToolUse",
+      "permissionDecision": "deny",
+      "permissionDecisionReason": "[ToolCallBudget] The budget of 3 tool calls is used up. Stop now and report your progress and the open problems to the user."
+    }
+  },
+  "stderr": ""
+}

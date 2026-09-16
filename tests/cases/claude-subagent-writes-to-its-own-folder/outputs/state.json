@@ -1,0 +1,12 @@
+{
+  "RequireTests": {
+    "state": {},
+    "outputs": {
+      "verdict": "allow",
+      "reasons": [
+        "`pytest -q` passed."
+      ],
+      "context": []
+    }
+  }
+}

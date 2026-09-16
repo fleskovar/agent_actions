@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-15T10:00:00.000Z",
+  "session_id": "2b3c4d5e-6f70-4819-8a0b-1c2d3e4f5062",
+  "cwd": "{{root}}",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "apply_patch",
+  "tool_input": {
+    "explanation": "Add the discount branch and its test",
+    "input": "*** Begin Patch\n*** Update File: {{root}}/src/app.py\n@@\n-    return total\n+    return total * 0.9\n*** Update File: {{root}}/tests/test_app.py\n@@\n-    assert total == 100\n+    assert total == 90\n*** End Patch"
+  },
+  "tool_use_id": "call_9"
+}

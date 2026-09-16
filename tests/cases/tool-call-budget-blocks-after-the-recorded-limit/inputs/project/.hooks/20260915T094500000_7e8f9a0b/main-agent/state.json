@@ -1,0 +1,19 @@
+{
+  "20260915T094500000": {
+    "ToolCallBudget": {
+      "state": {
+        "calls": 3
+      },
+      "inputs": {
+        "hook": "pre-tool"
+      },
+      "outputs": {
+        "verdict": "allow",
+        "reasons": [
+          "3 of 3 tool calls used."
+        ],
+        "context": []
+      }
+    }
+  }
+}

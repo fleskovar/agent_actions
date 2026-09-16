@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "decision": "block",
+    "reason": "[RequireTests] `pytest -q` failed with exit code 1. Make all tests pass before you finish. Do not change or delete tests to make them pass.\n[RequireTests] Output:\n1 failed, 4 passed"
+  },
+  "stderr": ""
+}

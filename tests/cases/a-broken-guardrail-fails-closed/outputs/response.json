@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "stdout": {
+    "hookSpecificOutput": {
+      "hookEventName": "PreToolUse",
+      "permissionDecision": "deny",
+      "permissionDecisionReason": "[ModeGuard] The check failed with KeyError: 'mode'. Tell the user. The traceback is in the log.txt file under .hooks/."
+    }
+  },
+  "stderr": ""
+}

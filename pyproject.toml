@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-actions"
+version = "0.1.0"
+description = "Python SDK and CLI for agent lifecycle hooks, with tracked session state."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.10"]
+
+[project.scripts]
+agent_actions = "agent_actions.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agent_actions = ["skills/*/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests", "tests/cases"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "RET", "ARG", "C4", "PTH", "RUF"]
+# A process implements `run(event)` even when it does not read the event.
+ignore = ["ARG002"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["ARG", "E501"]
+"src/agent_actions/__init__.py" = ["N816"]
+
+[tool.mypy]
+strict = true
+files = ["src"]

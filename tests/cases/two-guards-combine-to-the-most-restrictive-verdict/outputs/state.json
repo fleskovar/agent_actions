@@ -1,0 +1,24 @@
+{
+  "ToolCallBudget": {
+    "state": {
+      "calls": 1
+    },
+    "outputs": {
+      "verdict": "allow",
+      "reasons": [
+        "1 of 5 tool calls used."
+      ],
+      "context": []
+    }
+  },
+  "BlockWrites": {
+    "state": {},
+    "outputs": {
+      "verdict": "block",
+      "reasons": [
+        "'Write' on '{{root}}/tests/test_pricing.py' is blocked: 'tests/**' is protected. These files are protected. Do not change them. If a change is necessary, stop and ask the user."
+      ],
+      "context": []
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "session_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "Stop",
+  "stop_hook_active": true,
+  "last_assistant_message": "I cannot make the pricing test pass."
+}

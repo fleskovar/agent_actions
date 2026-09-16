@@ -1,0 +1,13 @@
+{
+  "session_id": "5e6f7081-92a3-4b4c-8d3e-4f5063748595",
+  "transcript_path": "{{root}}/transcript.jsonl",
+  "cwd": "{{root}}",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Grep",
+  "tool_input": {
+    "pattern": "API_KEY",
+    "path": "secrets"
+  },
+  "tool_use_id": "toolu_04"
+}
